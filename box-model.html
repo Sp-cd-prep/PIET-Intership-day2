@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            width: 300px;
+            height: 200px;
+            background-color: aquamarine;
+
+            /* margin-left: 30px;
+            margin-top: 50px;
+            margin-bottom: 90px; */
+
+            /* shorthand property */
+            
+            /* margin:top right bottom left ; */
+            /* margin:50px 0px 90px 30px ; */
+
+            /* //top-bottom left and right */
+            /* margin: 30px 60px;  */
+
+            /* applicable for all the sides */
+            margin: 50px;
+
+            border-width: 10px;
+            border-color: brown;
+            border-style:ridge;
+
+            border-radius: 0px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+        }
+        .sub-container{
+            width: 100px;
+            height: 100px;
+            background-color: crimson;
+            border-radius: 28% 72% 71% 29% / 60% 66% 34% 40% ;
+        }
+
+        .form-container{
+            width: 400px;
+            height: 200px;
+            background-color: antiquewhite;
+            border-radius: 30px;
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 10px solid rgb(39, 38, 38);
+            margin: 50px;
+
+            padding:30px ;
+            box-sizing: border-box;
+
+            /* box-shadow: x-axis y-axis blur spread color; */
+            /* box-shadow: 10px 10px 10px 10px gray; */
+
+            box-shadow: 0px 0px 10px 5px gray;
+            
+        }
+        input{
+            background-color: rgb(247, 245, 245);
+            border: 2px solid gray;
+            border-radius: 30px;
+
+        }
+        
+        .inside-from{
+            width: 300px;
+
+        }
+
+        .box-shadow{
+            width: 300px;
+            height: 300px;
+            background-color: antiquewhite;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+
+
+        .chatBot{
+            width: 50px;
+            height: 50px;
+            background-color: goldenrod;
+            border: 5px solid gray;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 30px;
+            right: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="box-shadow"></div>
+
+    <div class="form-container">
+        <div class="inside-from">
+            <label>Name:
+            <input type="text">
+        </label>
+        <br>
+        <label>Email:
+            <input type="email">
+        </label>
+        <br>
+        <label>Password:
+            <input type="password">
+        </label>
+        </div>
+        <button>Submit</button>
+    </div>
+
+
+
+    <div class="container">
+        <div class="sub-container"></div>
+    </div>
+    <div class="container"></div>
+    <div class="container"></div>
+
+
+    <div class="chatBot"></div>
+    
+</body>
+</html>

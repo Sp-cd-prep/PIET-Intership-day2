@@ -1,0 +1,27 @@
+h2{
+    color: green;
+}
+
+.header{
+    background-color: aqua;
+}
+
+
+#text{
+    background-color: tomato;
+}
+
+.container{
+    color: red;
+}
+
+
+.font-family{
+    font-family: cursive;
+    font-style: italic;
+}
+
+.font-size{
+    font-size: 3px;
+}
+
